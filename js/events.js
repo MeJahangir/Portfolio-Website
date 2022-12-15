@@ -22,3 +22,9 @@ pinkButton.addEventListener('click', makePink);
 function makePink() {
     document.body.style.backgroundColor = 'pink';
 };
+
+// Option 5:
+const makeGreenButton = document.getElementById('make-green');
+makeGreenButton.addEventListener('click', function makeGreen() {
+    document.body.style.backgroundColor = "green";
+})

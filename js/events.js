@@ -8,5 +8,17 @@ function makeRed() {
 }
 
 // Option 3: another
-const makeBlueButton = decument.getElementById('Make-blue');
-makeBlueButton.onclick = MakeBlue;
+const makeBlueButton = decument.getElementById("Make-blue");
+makeBlueButton.onclick = makeBlue;
+
+function makeBlue() {
+    document.body.style.backgroundColor = "blue";
+} 
+
+// Option 4:
+const pinkButton = document.getElementById('make-pink');
+pinkButton.addEventListener('click', makePink);
+
+function makePink() {
+    document.body.style.backgroundColor = 'pink';
+}

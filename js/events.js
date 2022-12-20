@@ -29,6 +29,3 @@ makeGreenButton.addEventListener('click', function makeGreen() {
     document.body.style.backgroundColor = "green";
 })
 
-document.getElementById('First-button').addEventListener('click', function () {
-    const 
-})
